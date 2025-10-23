@@ -42,7 +42,7 @@ MAKE_GIF: bool = False                 # set False to skip plotting & GIF (fast 
 # MAKE_GIF: bool = True                 
 SHOW_PROGRESS: bool = True
 PERSIST_GIF_PATH: Path = Path("figures/template_match.gif")
-SAVE_DIST_CSV: bool = True
+SAVE_DIST_CSV: bool = False
 FRAME_STRIDE: int | None = None        # None -> auto stride ≈80 frames (only used if MAKE_GIF)
 # ============================================================================== #
 
