@@ -39,7 +39,7 @@ DTW_PSI: int = 0
 
 # Output / performance toggles
 MAKE_GIF: bool = False                 # set False to skip plotting & GIF (fast mode)
-# MAKE_GIF: bool = True                 # set False to skip plotting & GIF (fast mode)
+# MAKE_GIF: bool = True                 
 SHOW_PROGRESS: bool = True
 PERSIST_GIF_PATH: Path = Path("figures/template_match.gif")
 SAVE_DIST_CSV: bool = True
