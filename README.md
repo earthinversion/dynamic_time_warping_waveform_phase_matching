@@ -1,4 +1,4 @@
-# Phase Detection using DTW
+# Seismic Phase Detection using DTW
 
 A simple Python script that finds seismic phase arrivals in waveform data using Dynamic Time Warping (DTW). Basically, you give it a waveform and a template, and it tells you where the best match is.
 
