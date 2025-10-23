@@ -98,6 +98,8 @@ python perform_phase_detection_general.py
 
 This will search for the template (samples 100-120) in `example_traces/STN_syn.z` and tell you where it best matches.
 
+![](./figures/template_match.gif)
+
 ## What's DTW?
 
 Dynamic Time Warping is a way to measure similarity between two time series that might be slightly stretched or compressed. Unlike simple cross-correlation, DTW can handle timing variations - perfect for seismic phases that don't arrive at exactly the same speed every time!
