@@ -22,7 +22,7 @@ from dtaidistance import dtw
 plt.rcParams.update({"font.size": 14, "axes.labelsize": 16, "axes.titlesize": 18})
 
 # =========================== USER CONFIG (edit here) =========================== #
-WAVEFORM_PATH: str = "example_traces/STN_syn.z"
+WAVEFORM_PATH: str = "example_traces/STN_syn.r"
 TEMPLATE_PATH: str | None = None
 BEG: int = 100
 TER: int = 120
@@ -38,10 +38,10 @@ DTW_WINDOW_RATIO: float | None = 0.1   # None = unconstrained
 DTW_PSI: int = 0
 
 # Output / performance toggles
-MAKE_GIF: bool = False                 # set False to skip plotting & GIF (fast mode)
-# MAKE_GIF: bool = True                 
+# MAKE_GIF: bool = False                 # set False to skip plotting & GIF (fast mode)
+MAKE_GIF: bool = True                 
 SHOW_PROGRESS: bool = True
-PERSIST_GIF_PATH: Path = Path("figures/template_match.gif")
+PERSIST_GIF_PATH: Path = Path("figures/template_match_r.gif")
 SAVE_DIST_CSV: bool = False
 FRAME_STRIDE: int | None = None        # None -> auto stride ≈80 frames (only used if MAKE_GIF)
 # ============================================================================== #

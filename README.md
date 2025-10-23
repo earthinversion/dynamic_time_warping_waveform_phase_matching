@@ -6,6 +6,8 @@ A simple Python script that finds seismic phase arrivals in waveform data using 
 
 The script slides a template waveform across your data and calculates how similar they are at each position using DTW. The spot with the lowest distance = best match = your phase arrival time!
 
+![](./figures/phaseDetection.gif)
+
 ## Quick Start
 
 1. **Install dependencies:**
