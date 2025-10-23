@@ -98,13 +98,6 @@ python perform_phase_detection_general.py
 
 This will search for the template (samples 100-120) in `example_traces/STN_syn.z` and tell you where it best matches.
 
-## Troubleshooting
-
-- **"BEG/TER out of bounds"**: Your template indices are outside your waveform length
-- **Slow performance**: Try `MAKE_GIF = False` or increase `DTW_WINDOW_RATIO`
-- **No clear minimum**: Your template might not exist in the waveform, or preprocessing might be too aggressive
-- **ImportError**: Make sure you activated the conda environment
-
 ## What's DTW?
 
 Dynamic Time Warping is a way to measure similarity between two time series that might be slightly stretched or compressed. Unlike simple cross-correlation, DTW can handle timing variations - perfect for seismic phases that don't arrive at exactly the same speed every time!
